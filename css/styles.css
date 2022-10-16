@@ -1,1 +1,91 @@
+/* 
+background #F5F5F5
+основний колір тексту #212121
+вториний колір тексту #757575
+ */
 
+ :root {
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --primari-bg-color: #F5F5F5;
+ }
+
+ body {
+    color: var(--primary-text-color);
+    background-color: var(--primari-bg-color);
+ }
+
+.header {
+    background-color:#FFFFFF;
+}
+
+.logo {
+    color: #000000;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+
+.nav-site .link {
+    color: var(--primary-text-color);
+}
+.nav-site .link:hover,
+.nav-site .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts .link {
+    color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero .hero-title {
+    color: #FFFFFF;
+}
+.hero .hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.feature p {
+    color: #757575;
+}
+
+.team p {
+    color: #757575;
+}
+
+.portfolio-nav .button-nav {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+.portfolio-nav .button-nav:hover,
+.portfolio-nav .button-nav:active {
+    color: #ffff;
+    background-color: var(--accent-color);
+}
+
+.portfolio-example p {
+    color: #757575;
+}
+
+/* футер */
+.footer {
+    background-color: #2F303A;
+}
+
+.address .map {
+    color: #FFFFFF;
+}
+
+.address .link {
+    color:  rgba(255, 255, 255, 0.6);
+} 
