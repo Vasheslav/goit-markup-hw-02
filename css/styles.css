@@ -3,6 +3,7 @@
     --primary-text-color: #212121;
     --accent-color: #2196F3;
     --primari-bg-color: #F5F5F5;
+    --secondary-color: #FFFFFF;
 }
 
 body {
@@ -31,8 +32,11 @@ body {
         text-decoration: none;
 }
 
-.logo-web {
+.logo .logo-web {
     color: var(--accent-color);
+}
+.logo .logo-studio {
+    color: var(--secondary-color);
 }
 
 /*nav*/
@@ -71,7 +75,7 @@ body {
     background-color: #2F303A;
 }
 .hero .hero-title {
-    color: #FFFFFF;
+    color: var(--secondary-color);
 
         font-weight: 900;
         font-size: 44px;
@@ -81,9 +85,11 @@ body {
         text-transform: uppercase;
 }
 .hero .hero-button {
-    color: #FFFFFF;
+    color: var(--secondary-color);
     background-color: var(--accent-color);
     
+    font-family: 'Roboto';
+        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -93,12 +99,12 @@ body {
         letter-spacing: 0.06em;
 }
 
-.feature p,
-.team p {
+.feature .paragraf-feature,
+.team .team-work {
     color: #757575;
 }
 
-.feature h3 {
+.feature .title-feature {
 
     font-weight: 700;
     font-size: 14px;
@@ -106,7 +112,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.feature p {
+.feature .paragraf-feature {
     
         font-weight: 400;
         font-size: 14px;
@@ -114,6 +120,11 @@ body {
         letter-spacing: 0.03em;
 }
 
+/* Team */
+
+.team {
+    background-color: #F5F4FA;
+}
 .work .title-work {
 
     font-weight: 700;
@@ -127,13 +138,13 @@ body {
     
         font-weight: 700;
         font-size: 36px;
-        line-height: 17;
+        line-height: 1.17;
         text-align: center;
         letter-spacing: 0.03em;
 }
 
-.team h3,
-.team p {
+.team .team-name,
+.team .team-work {
 
         font-size: 16px;
         line-height: 1.19;
@@ -141,21 +152,23 @@ body {
         letter-spacing: 0.03em;
 }
 
-.team h3 {
+.team .hteam-name {
     
         font-weight: 500;
 }
 
-.team p {
+.team .team-work {
 
     font-weight: 400;
 }
 
+/* portfolio */
 
 .portfolio-nav .button-nav {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
 
+    font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -168,7 +181,7 @@ body {
 
 .portfolio-nav .button-nav:hover,
 .portfolio-nav .button-nav:active {
-    color: #ffff;
+    color: var(--secondary-color);
     background-color: var(--accent-color);
 }
 
@@ -201,11 +214,13 @@ body {
 }
 
 .address .map {
-    color: #FFFFFF;
+    color: var(--secondary-color);
+    font-style: normal;
 }
 
 .address .link {
     color:  rgba(255, 255, 255, 0.6);
 
     text-decoration: none;
+    font-style: normal;
 } 
