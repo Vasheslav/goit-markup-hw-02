@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-    color: #000000;
+    color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
     
         font-weight: 700;
@@ -32,8 +32,8 @@ body {
         text-decoration: none;
 }
 
-.logo .logo-web {
-    color: var(--accent-color);
+.logo .studio {
+    color: #000;
 }
 .logo .logo-studio {
     color: var(--secondary-color);
@@ -152,13 +152,11 @@ body {
         letter-spacing: 0.03em;
 }
 
-.team .hteam-name {
-    
-        font-weight: 500;
+.team .team-name {
+    font-weight: 500;
 }
 
 .team .team-work {
-
     font-weight: 400;
 }
 
@@ -176,8 +174,6 @@ body {
         letter-spacing: 0.03em;
         cursor: pointer;
 }
-
-
 
 .portfolio-nav .button-nav:hover,
 .portfolio-nav .button-nav:active {
@@ -213,14 +209,14 @@ body {
         letter-spacing: 0.03em;
 }
 
-.address .map {
-    color: var(--secondary-color);
-    font-style: normal;
-}
-
 .address .link {
     color:  rgba(255, 255, 255, 0.6);
 
     text-decoration: none;
     font-style: normal;
-} 
+}
+
+.address .map {
+    color: var(--secondary-color);
+    font-style: normal;
+}
